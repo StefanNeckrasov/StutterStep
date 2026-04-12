@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "fakelag",
+	"version": "${version}",
+	"name": "StutterStep",
+	"description": "Make your connection stumble",
+	"authors": ["Stefan"],
+	"contact": {
+		"homepage": "modrinth mod",
+		"sources": "github",
+		"issues": "github issues"
+	},
+	"license": "MIT",
+	"icon": "assets/fakelag/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.fakelag.FakeLagMod"
+		],
+		"client": [
+			"com.example.fakelag.FakeLagModClient"
+		],
+		"modmenu": [
+			"com.example.fakelag.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"fakelag.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"cloth-config": ">=15.0.0",
+		"modmenu": ">=11.0.0"
+	}
+}
