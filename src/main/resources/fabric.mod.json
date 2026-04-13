@@ -7,8 +7,8 @@
 	"authors": ["Stefan"],
 	"contact": {
 		"homepage": "modrinth mod",
-		"sources": "github",
-		"issues": "github issues"
+		"sources": "https://github.com/StefanNeckrasov/StutterStep",
+		"issues": "https://github.com/StefanNeckrasov/StutterStep/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/fakelag/icon.png",
