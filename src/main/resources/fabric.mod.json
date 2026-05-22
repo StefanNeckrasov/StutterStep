@@ -6,7 +6,7 @@
 	"description": "Make your connection stumble",
 	"authors": ["Stefan"],
 	"contact": {
-		"homepage": "modrinth mod",
+		"homepage": "https://modrinth.com/mod/stutterstep",
 		"sources": "https://github.com/StefanNeckrasov/StutterStep",
 		"issues": "https://github.com/StefanNeckrasov/StutterStep/issues"
 	},

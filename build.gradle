@@ -58,3 +58,8 @@ jar {
 		rename { "${it}_${base.archivesName.get()}" }
 	}
 }
+loom {
+	mixin {
+		useLegacyMixinAp = true
+	}
+}

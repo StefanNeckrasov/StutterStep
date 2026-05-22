@@ -23,7 +23,7 @@ public class FakeLagMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("Initializing FakeLagMod");
+        LOGGER.info("Initializing StutterStep");
 
         PayloadTypeRegistry.playS2C().register(SyncConfigPayload.ID, SyncConfigPayload.CODEC);
 
